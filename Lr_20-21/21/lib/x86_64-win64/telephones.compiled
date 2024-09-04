@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\coding\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1469148810"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -WG -l -vewnhibq -FiC:\Users\user\Desktop\уывкеапрголджэ\lib\x86_64-win64 -FuC:\coding\lcl\units\x86_64-win64\win32 -FuC:\coding\lcl\units\x86_64-win64 -FuC:\coding\components\freetype\lib\x86_64-win64 -FuC:\coding\components\lazutils\lib\x86_64-win64 -FuC:\coding\packager\units\x86_64-win64 -FuC:\Users\user\Desktop\уывкеапрголджэ\ -FUC:\Users\user\Desktop\уывкеапрголджэ\lib\x86_64-win64\ -FEC:\Users\user\Desktop\уывкеапрголджэ\ -oC:\Users\user\Desktop\уывкеапрголджэ\telephones.exe -dLCL -dLCLwin32 telephones.lpr"/>
+</CONFIG>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="MyPodprog.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Main"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="3" Y="115"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="J:\BG\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3596"/>
+        <CursorPos Y="3612"/>
+        <UsageCount Value="11"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="1">
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="55" Column="95" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="56" Column="53" TopLine="38"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

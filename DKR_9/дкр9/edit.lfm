@@ -1,0 +1,136 @@
+object fEdit: TfEdit
+  Left = 419
+  Height = 333
+  Top = 404
+  Width = 400
+  Caption = 'редактор vivo'
+  ClientHeight = 333
+  ClientWidth = 400
+  Color = clGradientActiveCaption
+  OnCreate = FormCreate
+  OnResize = FormResize
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '3.0.0.3'
+  object bCancel: TBitBtn
+    Left = 232
+    Height = 22
+    Top = 296
+    Width = 150
+    Cancel = True
+    Caption = 'Не сохранять'
+    Kind = bkCancel
+    ModalResult = 2
+    TabOrder = 0
+  end
+  object bSave: TBitBtn
+    Left = 40
+    Height = 22
+    Top = 296
+    Width = 150
+    Caption = 'Сохранить контакт'
+    Default = True
+    Kind = bkOK
+    ModalResult = 1
+    TabOrder = 1
+  end
+  object NDiag: TLabel
+    Left = 20
+    Height = 15
+    Top = 114
+    Width = 103
+    Caption = 'Диагональ экрана:'
+    ParentColor = False
+  end
+  object eP: TEdit
+    Left = 7
+    Height = 23
+    Top = 80
+    Width = 175
+    TabOrder = 2
+    OnKeyPress = ePKeyPress
+  end
+  object NP: TLabel
+    Left = 20
+    Height = 15
+    Top = 64
+    Width = 174
+    Caption = 'Укажите цену модели в рублях:'
+    ParentColor = False
+  end
+  object eName: TEdit
+    Left = 7
+    Height = 23
+    Top = 27
+    Width = 317
+    TabOrder = 3
+  end
+  object NModel: TLabel
+    Left = 20
+    Height = 15
+    Top = 7
+    Width = 161
+    Caption = 'Укажите модель  смартфона:'
+    ParentColor = False
+  end
+  object NBall: TLabel
+    Left = 20
+    Height = 15
+    Top = 176
+    Width = 237
+    Caption = 'Оценка качества по десятибальной шкале:'
+    ParentColor = False
+  end
+  object NRus: TLabel
+    Left = 24
+    Height = 15
+    Top = 240
+    Width = 113
+    Caption = 'Продается в России:'
+    ParentColor = False
+  end
+  object CBNote1: TComboBox
+    Left = 8
+    Height = 23
+    Top = 200
+    Width = 175
+    ItemHeight = 15
+    ItemIndex = 0
+    Items.Strings = (
+      '1'
+      '2'
+      '3'
+      '4'
+      '5'
+      '6'
+      '7'
+      '8'
+      '9'
+      '10'
+    )
+    ReadOnly = True
+    TabOrder = 4
+    Text = '1'
+  end
+  object eDiag: TEdit
+    Left = 8
+    Height = 23
+    Top = 136
+    Width = 175
+    TabOrder = 5
+    OnKeyPress = eDiagKeyPress
+  end
+  object CBNote2: TComboBox
+    Left = 8
+    Height = 23
+    Top = 264
+    Width = 175
+    ItemHeight = 15
+    Items.Strings = (
+      'да'
+      'нет'
+    )
+    ReadOnly = True
+    TabOrder = 6
+  end
+end

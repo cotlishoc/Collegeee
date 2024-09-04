@@ -1,0 +1,75 @@
+object Form1: TForm1
+  Left = 292
+  Height = 685
+  Top = 152
+  Width = 765
+  Caption = 'Form1'
+  ClientHeight = 685
+  ClientWidth = 765
+  DesignTimePPI = 110
+  LCLVersion = '3.0.0.3'
+  object Label1: TLabel
+    Left = 101
+    Height = 19
+    Top = 79
+    Width = 88
+    Caption = 'Первое число'
+  end
+  object Label2: TLabel
+    Left = 272
+    Height = 19
+    Top = 79
+    Width = 86
+    Caption = 'Второе число'
+  end
+  object Edit1: TEdit
+    Left = 120
+    Height = 26
+    Top = 107
+    Width = 56
+    BidiMode = bdRightToLeftReadingOnly
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clMaroon
+    Font.Name = 'SFNS Display'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentBidiMode = False
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 288
+    Height = 26
+    Top = 107
+    Width = 56
+    BidiMode = bdRightToLeftReadingOnly
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clMaroon
+    Font.Name = 'SFNS Display'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentBidiMode = False
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 169
+    Height = 27
+    Top = 156
+    Width = 129
+    Caption = 'Обменять'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 206
+    Height = 21
+    Top = 194
+    Width = 54
+    Caption = 'ВЫХОД'
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+end

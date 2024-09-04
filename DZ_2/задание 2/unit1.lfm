@@ -1,0 +1,134 @@
+object Form1: TForm1
+  Left = 269
+  Height = 750
+  Top = 141
+  Width = 736
+  Caption = 'Form1'
+  ClientHeight = 750
+  ClientWidth = 736
+  Color = 12050381
+  DesignTimePPI = 110
+  Font.CharSet = RUSSIAN_CHARSET
+  Font.Color = clOlive
+  Font.Height = -21
+  Font.Name = 'Book Antiqua'
+  Font.Pitch = fpVariable
+  Font.Quality = fqDraft
+  LCLVersion = '3.0.0.3'
+  object Label1: TLabel
+    Left = 8
+    Height = 35
+    Top = 24
+    Width = 663
+    Caption = 'НАХОЖДЕНИЕ ПЛОЩАДИ ТРЕУГОЛЬНИКА и'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clOlive
+    Font.Height = -28
+    Font.Name = 'a_RomanusTtlCmD3Cb'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 176
+    Height = 35
+    Top = 64
+    Width = 529
+    Caption = 'ВЕЛИЧИНЫ БОКОВОЙ СТОРОНЫ'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clOlive
+    Font.Height = -28
+    Font.Name = 'a_RomanusTtlCmD3Cb'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 40
+    Height = 26
+    Top = 144
+    Width = 132
+    Caption = 'Основание C:'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clOlive
+    Font.Height = -21
+    Font.Name = 'Book Antiqua'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 352
+    Height = 26
+    Top = 144
+    Width = 205
+    Caption = 'Угол при основании:'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clOlive
+    Font.Height = -21
+    Font.Name = 'Book Antiqua'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 184
+    Height = 34
+    Top = 144
+    Width = 88
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clGreen
+    Font.Height = -21
+    Font.Name = 'Book Antiqua'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 576
+    Height = 34
+    Top = 144
+    Width = 88
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clGreen
+    Font.Height = -21
+    Font.Name = 'Book Antiqua'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Memo1: TMemo
+    Left = 120
+    Height = 104
+    Top = 208
+    Width = 466
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clGreen
+    Font.Height = -21
+    Font.Name = 'Book Antiqua'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 37
+    Height = 29
+    Top = 349
+    Width = 135
+    Caption = 'Расчитать'
+    TabOrder = 3
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 529
+    Height = 29
+    Top = 349
+    Width = 135
+    Caption = 'Выход'
+    TabOrder = 4
+    OnClick = Button2Click
+  end
+end

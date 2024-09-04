@@ -1,0 +1,184 @@
+object Form1: TForm1
+  Left = 258
+  Height = 774
+  Top = 134
+  Width = 826
+  Caption = 'Form1'
+  ClientHeight = 774
+  ClientWidth = 826
+  Color = clGradientActiveCaption
+  DesignTimePPI = 110
+  LCLVersion = '3.0.0.3'
+  object Memo1: TMemo
+    Left = 67
+    Height = 221
+    Top = 88
+    Width = 492
+    Color = clBtnFace
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clNavy
+    Font.Height = -17
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 67
+    Height = 22
+    Top = 48
+    Width = 247
+    Align = alCustom
+    Alignment = taCenter
+    Caption = 'y=x^2 на отрезку от a до b'
+    Color = clBtnText
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clHotLight
+    Font.Height = -18
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 67
+    Height = 22
+    Top = 352
+    Width = 249
+    Align = alCustom
+    Alignment = taCenter
+    Caption = 'введите начало отрезка a'
+    Color = clBtnText
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clHotLight
+    Font.Height = -18
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 67
+    Height = 22
+    Top = 400
+    Width = 240
+    Align = alCustom
+    Alignment = taCenter
+    Caption = 'введите конец отрезка b'
+    Color = clBtnText
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clHotLight
+    Font.Height = -18
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 67
+    Height = 22
+    Top = 448
+    Width = 136
+    Align = alCustom
+    Alignment = taCenter
+    Caption = 'введите шаг h'
+    Color = clBtnText
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clHotLight
+    Font.Height = -18
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 368
+    Height = 30
+    Top = 352
+    Width = 114
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -18
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Edit2: TEdit
+    Left = 368
+    Height = 30
+    Top = 400
+    Width = 114
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -18
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Edit3: TEdit
+    Left = 368
+    Height = 30
+    Top = 448
+    Width = 114
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -18
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Button1: TButton
+    Left = 67
+    Height = 40
+    Top = 519
+    Width = 201
+    Caption = 'Произвести расчет'
+    Color = clForm
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlue
+    Font.Height = -18
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 446
+    Height = 40
+    Top = 519
+    Width = 113
+    Caption = 'ВЫХОД'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -18
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 5
+    OnClick = Button2Click
+  end
+end

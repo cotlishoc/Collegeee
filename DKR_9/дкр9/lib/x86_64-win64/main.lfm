@@ -1,0 +1,70 @@
+object fMain: TfMain
+  Left = 202
+  Height = 531
+  Top = 328
+  Width = 804
+  Caption = 'смартфоны vivo'
+  ClientHeight = 531
+  ClientWidth = 804
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnResize = FormResize
+  LCLVersion = '3.0.0.3'
+  object SG: TStringGrid
+    Left = 0
+    Height = 500
+    Top = 31
+    Width = 804
+    Align = alBottom
+    Color = clGradientActiveCaption
+    FixedCols = 0
+    GridLineColor = clHotLight
+    RowCount = 1
+    TabOrder = 0
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 30
+    Top = 0
+    Width = 804
+    Align = alTop
+    ClientHeight = 30
+    ClientWidth = 804
+    Color = clGradientActiveCaption
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 1
+    object bAdd: TSpeedButton
+      Left = 8
+      Height = 30
+      Top = 0
+      Width = 190
+      Caption = 'Добавить смартфон'
+      OnClick = bAddClick
+    end
+    object bDel: TSpeedButton
+      Left = 408
+      Height = 30
+      Top = 0
+      Width = 190
+      Caption = 'Удалить смартфон'
+      OnClick = bDelClick
+    end
+    object bEdit: TSpeedButton
+      Left = 208
+      Height = 30
+      Top = 0
+      Width = 190
+      Caption = 'Редактировать смартфон'
+      OnClick = bEditClick
+    end
+    object bSort: TSpeedButton
+      Left = 608
+      Height = 30
+      Top = 0
+      Width = 190
+      Caption = 'Сортировать список'
+      OnClick = bSortClick
+    end
+  end
+end

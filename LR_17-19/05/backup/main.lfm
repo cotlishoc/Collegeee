@@ -1,0 +1,73 @@
+object fMain: TfMain
+  Left = 357
+  Height = 217
+  Top = 295
+  Width = 447
+  BorderStyle = bsSingle
+  Caption = 'Работа с подпрограммам'
+  ClientHeight = 217
+  ClientWidth = 447
+  OnCreate = FormCreate
+  LCLVersion = '3.0.0.3'
+  object Edit1: TEdit
+    Left = 203
+    Height = 23
+    Top = 53
+    Width = 192
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 48
+    Height = 20
+    Top = 53
+    Width = 101
+    Caption = 'Введите число'
+    Font.Height = -15
+    ParentFont = False
+  end
+  object doubleprocedure: TButton
+    Left = 64
+    Height = 27
+    Top = 117
+    Width = 141
+    Caption = 'Удвоение (procedure)'
+    TabOrder = 1
+    OnClick = doubleprocedureClick
+  end
+  object doublefunction: TButton
+    Left = 213
+    Height = 27
+    Top = 117
+    Width = 141
+    Caption = 'Удвоение (function)'
+    TabOrder = 2
+    OnClick = doublefunctionClick
+  end
+  object doublessylka: TButton
+    Left = 64
+    Height = 27
+    Top = 149
+    Width = 141
+    Caption = 'Удвоение (по ссылке)'
+    TabOrder = 3
+    OnClick = doubleprocedureClick
+  end
+  object doubleglobal: TButton
+    Left = 213
+    Height = 27
+    Top = 149
+    Width = 141
+    Caption = 'Удвоение (MyPrivate)'
+    TabOrder = 4
+    OnClick = doubleprocedureClick
+  end
+  object doubleglobalX2: TButton
+    Left = 139
+    Height = 27
+    Top = 181
+    Width = 141
+    Caption = 'Удвоение (MyDouble)'
+    TabOrder = 5
+    OnClick = doubleprocedureClick
+  end
+end
